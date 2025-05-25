@@ -19,7 +19,7 @@ public partial class TmdbApiClient
                 { "X-Fern-Language", "C#" },
                 { "X-Fern-SDK-Name", "TmdbApi" },
                 { "X-Fern-SDK-Version", Version.Current },
-                { "User-Agent", "Imdb.Net/1.0.0" },
+                { "User-Agent", "tmdb.Net/1.0.1" },
             }
         );
         clientOptions ??= new ClientOptions();
